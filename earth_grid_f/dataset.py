@@ -10,7 +10,7 @@ class Dataset(data.Dataset):
             f"result/{latent_name}/latent.pt", map_location="cpu", weights_only=True
         )
 
-        self.data_dir = "/path/to/dataset/earth_grid/tensor_fp16"
+        self.data_dir = "/path/to/dataset/earth_grid/tensor"
 
         if type == "train":
             self.data_list = [f"{i:08d}.pt" for i in range(80357, 86201)]
