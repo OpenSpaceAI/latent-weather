@@ -1,7 +1,5 @@
 matplotlib
 munch
-natsort
-scienceplots
 torch
 tqdm
 transformers
