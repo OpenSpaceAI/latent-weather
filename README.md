@@ -30,7 +30,7 @@ Run `earth_station_ae/main.py` to train the Spatial-Encoder and Spatial-Decoder,
 
 The Mars Grid dataset is from [OpenMARS](https://ordo.open.ac.uk/articles/dataset/OpenMARS_continuous_MY28-35_standard_database/24573205).
 
-Similarly, after downloading, you can use `dataset_process/mars_grid_1.py` and `dataset_process/mars_grid_2.py` to do format conversion and normalization (not provided yet).
+After downloading, put all `.nc` files that start with `openmars_` (i.e. all `.nc` files except `MCS_ret_coverage.nc`) to `dataset/mars_grid/raw` folder. Then use `dataset_process/mars_grid_1.py` and `dataset_process/mars_grid_2.py` to do format conversion and normalization.
 
 ### Train
 
